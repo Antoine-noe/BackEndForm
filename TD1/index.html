@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<?php
+echo"ligne créer uniquement avec PHP";
+echo"ligne créer avec PHP";
+
+$url="http://php.net/manual/fr/langref.php";
+$texte_du_lien="PHP DOC";
+?>
+
+<a href="<? echo $url; ?>"><? echo $texte_du_lien; ?></a>
+
+</body>
+</html>
