@@ -104,10 +104,10 @@ $affich='';
 if($rest2 === $gpe12) {
     echo "Verbe du premier groupe.";
     echo "<br>";
-    foreach($tab as $affich)
+    foreach($tab["pronoms"] as $key => $value)
     {
 
-       echo $affich.$conj2.[];
+       echo $value.' '.$conj2.$value["present12"];
         echo "<br>";
 
     }
@@ -155,7 +155,7 @@ echo "resultat obtenu en :".$j." fois.";
 echo "<br>";
 /*EX9*/
 
-$saisieex9="55£";
+$saisieex9="55CHF";
 $saisieC=substr($saisieex9, 0,-1);
 $total=intval($saisieC);
 
